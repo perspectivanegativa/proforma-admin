@@ -9910,7 +9910,8 @@ a:focus {
 }
 
 #wrapper {
-    display: flex
+    display: flex;
+    height: 100vh !important;
 }
 
 #wrapper #content-wrapper {
