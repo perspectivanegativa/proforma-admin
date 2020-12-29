@@ -1,3 +1,5 @@
+// Acá ponemos el código custom de javascript
+
 $(document).ready(function() {
   $('#dataTable').DataTable(
     {

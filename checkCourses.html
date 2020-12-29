@@ -8,12 +8,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Proforma Admin</title>
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
             href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
             rel="stylesheet">
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -58,7 +58,7 @@
 
                 <!-- Topbar Navbar -->
                 <!-- Topbar Search -->
-                <h1 class="h3 mb-2 text-gray-800 customTitle">Revisar <Cursos></Cursos></h1>
+                <h1 class="h3 mb-2 text-gray-800 customTitle">Revisar Cursos</h1>
                 <ul class="navbar-nav ml-auto">
 
                     <div class="topbar-divider d-none d-sm-block"></div>
@@ -67,26 +67,13 @@
                     <li class="nav-item dropdown no-arrow">
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Usuario Admin</span>
-                            <img class="img-profile rounded-circle"
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 medium">Usuario Admin &nbsp;</span>
+                            <img class="img-profile rounded-circle zoom-1-5"
                                  src="../img/undraw_profile.svg">
                         </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                              aria-labelledby="userDropdown">
-                            <!--<a class="dropdown-item" href="#">
-                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Perfil
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Configuración
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Log de Actividad
-                            </a>
-                            <div class="dropdown-divider"></div>-->
                             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                 Cerrar Sesión
@@ -1544,11 +1531,24 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="nivelParticipante">Nivel</label>
-                                    <input type="text" class="form-control" id="nivelParticipante" placeholder="Nivel">
+                                    <select id="nivelParticipante" class="custom-select custom-select-md mb-3">
+                                        <option value="">Seleccione Nivel</option>
+                                        <option value="1">Empresarios y Ejecutivos</option>
+                                        <option value="2">Profesionales</option>
+                                        <option value="3">Mandos Medios no Profesionales</option>
+                                        <option value="4">Administrativos</option>
+                                        <option value="5">Trabajadores Calificados</option>
+                                        <option value="6">Trabajadores Semicalificados</option>
+                                        <option value="7">Trabajadores no Calificados</option>
+                                    </select>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="franquiciaParticipante">Franquicia</label>
-                                    <input type="text" class="form-control" id="franquiciaParticipante" placeholder="Franquicia">
+                                    <select id="franquiciaParticipante" class="custom-select custom-select-md mb-3">
+                                        <option value="100">Remuneración < 25 UTM</option>
+                                        <option value="50">Remuneración entre 25 y 50 UTM</option>
+                                        <option value="15">Remuneración > 50 UTM</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -1579,22 +1579,18 @@
     </div>
 </div>
 
-<!-- Bootstrap core JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap-->
+<script src="./plugins/jquery/jquery.min.js"></script>
+<script src="./plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./plugins/jquery-easing/jquery.easing.min.js"></script>
 
-<!-- Core plugin JavaScript-->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Scripts custom propios -->
+<script src="js/index.js"></script>
 
-<!-- Custom scripts for all pages-->
-<script src="js/sb-admin-2.min.js"></script>
+<!-- PLugin para las tablas -->
+<script src="./plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="./plugins/datatables/dataTables.bootstrap4.min.js"></script>
 
-<!-- Page level plugins -->
-<script src="vendor/datatables/jquery.dataTables.min.js"></script>
-<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-<!-- Page level custom scripts -->
-<script src="js/datatables-init.js"></script>
 </body>
 
 </html>
