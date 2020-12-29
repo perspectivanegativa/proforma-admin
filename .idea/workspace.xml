@@ -6,35 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2329a82c-5a37-4924-9ef1-cfda6d91e395" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplos/cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charts.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/checkCourses.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkCourses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/undraw_posting_photo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/undraw_profile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/undraw_profile_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/undraw_profile_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/undraw_profile_3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/undraw_rocket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/importLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sb-admin-2.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo/chart-area-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo/chart-bar-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo/chart-pie-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/datatables-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities-animation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities-border.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities-color.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities-other.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/datatables-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/datatables-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609166976794</updated>
-      <workItem from="1609166978100" duration="7595000" />
+      <workItem from="1609166978100" duration="18757000" />
     </task>
     <servers />
   </component>

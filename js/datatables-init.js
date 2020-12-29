@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#dataTable').DataTable(
     {
+      "fixedHeader": true,
       "language": {
         "search": "Filtrar resultados:",
         "lengthMenu": "Mostrando _MENU_  Registros por pagina",
