@@ -4770,8 +4770,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #4e73df;
-    border-color: #4e73df
+    background-color: #b4892b;
+    border-color: #b4892b
 }
 
 .page-item.disabled .page-link {
@@ -10059,7 +10059,15 @@ a:focus {
     background-color: #b8462b;
     background-image: linear-gradient(180deg, #b4892b 10%, #b8462b 100%);
     background-size: cover;
-
+}
+.bg-proforma {
+    background-color: #b8462b;
+    background: url(../img/background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
 }
 
 .bg-gradient-success {
@@ -11466,6 +11474,13 @@ body.sidebar-toggled footer.sticky-footer {
     border-color: #b4892b;
 }
 
+.btn-primary.focus, .btn-proforma:focus {
+    color: #fff;
+    background-color: #b8462b;
+    border-color: #b8462b;
+    box-shadow: 0 0 0 .2rem rgba(180, 137, 43, .5)
+}
+
 .text-primary-proforma {
     color: #b8462b !important
 }
@@ -11488,4 +11503,10 @@ body.sidebar-toggled footer.sticky-footer {
 
 .zoom-2 {
     zoom: 2;
+}
+
+.dropdown-item-proforma.active, .dropdown-item-proforma:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #b8462b
 }
